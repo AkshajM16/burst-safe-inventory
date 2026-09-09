@@ -1,0 +1,1380 @@
+{
+  "summary": {
+    "timestamp_utc": "2026-09-09T08:26:45.346759+00:00",
+    "mode": "safe",
+    "trial": 1,
+    "concurrency": 250,
+    "inventory": 100,
+    "attempts": 150,
+    "duplicate_every": 10,
+    "replicas": 1,
+    "item_id": 29,
+    "successful_unique_reservations": 100,
+    "committed_reserved_quantity": 100,
+    "remaining_stock": 0,
+    "invalid_oversold_success_count": 0,
+    "duplicate_side_effect_count": 0,
+    "invariant_gap": 0,
+    "invariant_violations": 0,
+    "requests_per_second": 1099.4414199910418,
+    "p50_ms": 84.94962499999991,
+    "p95_ms": 123.42283300000001,
+    "p99_ms": 126.605458,
+    "db_or_http_errors": 0,
+    "transport_errors": 0,
+    "elapsed_seconds": 0.13643291700000004,
+    "test_aid_delay_ms": 0
+  },
+  "samples": [
+    {
+      "request_no": 0,
+      "reservation_id": "29440696-04bd-5fb4-924a-2ee7bbbad481",
+      "http_status": 201,
+      "semantic_status": "SUCCEEDED",
+      "replay": false,
+      "latency_ms": 63.75866699999999,
+      "error": ""
+    },
+    {
+      "request_no": 1,
+      "reservation_id": "e0514090-5b3a-57a2-8607-1c21e86e0f81",
+      "http_status": 201,
+      "semantic_status": "SUCCEEDED",
+      "replay": false,
+      "latency_ms": 41.76374999999999,
+      "error": ""
+    },
+    {
+      "request_no": 2,
+      "reservation_id": "f7adbac6-ac35-5064-b8dd-4d8ea7e16698",
+      "http_status": 201,
+      "semantic_status": "SUCCEEDED",
+      "replay": false,
+      "latency_ms": 44.89287500000005,
+      "error": ""
+    },
+    {
+      "request_no": 3,
+      "reservation_id": "94a5227e-5468-5d31-844e-b62bd88f3d83",
+      "http_status": 201,
+      "semantic_status": "SUCCEEDED",
+      "replay": false,
+      "latency_ms": 80.20654199999998,
+      "error": ""
+    },
+    {
+      "request_no": 4,
+      "reservation_id": "363b96ba-b9b7-59f5-914f-b3010862e3f5",
+      "http_status": 201,
+      "semantic_status": "SUCCEEDED",
+      "replay": false,
+      "latency_ms": 65.750792,
+      "error": ""
+    },
+    {
+      "request_no": 5,
+      "reservation_id": "19638e76-95fe-5774-8b61-e49c7f94692f",
+      "http_status": 201,
+      "semantic_status": "SUCCEEDED",
+      "replay": false,
+      "latency_ms": 57.693875000000006,
+      "error": ""
+    },
+    {
+      "request_no": 6,
+      "reservation_id": "c65012f7-e91e-5ed6-8028-cd10631cdcd8",
+      "http_status": 201,
+      "semantic_status": "SUCCEEDED",
+      "replay": false,
+      "latency_ms": 21.261499999999934,
+      "error": ""
+    },
+    {
+      "request_no": 7,
+      "reservation_id": "bab41e7b-d4c7-5cd6-860d-c5fbd90754ae",
+      "http_status": 201,
+      "semantic_status": "SUCCEEDED",
+      "replay": false,
+      "latency_ms": 90.452792,
+      "error": ""
+    },
+    {
+      "request_no": 8,
+      "reservation_id": "739366f4-7468-586d-b5bd-70450ba2903a",
+      "http_status": 201,
+      "semantic_status": "SUCCEEDED",
+      "replay": false,
+      "latency_ms": 113.43954199999995,
+      "error": ""
+    },
+    {
+      "request_no": 9,
+      "reservation_id": "4ff5b436-fae1-573a-a22b-f9a4248e03b9",
+      "http_status": 409,
+      "semantic_status": "SOLD_OUT",
+      "replay": false,
+      "latency_ms": 127.29341700000008,
+      "error": ""
+    },
+    {
+      "request_no": 10,
+      "reservation_id": "4ff5b436-fae1-573a-a22b-f9a4248e03b9",
+      "http_status": 200,
+      "semantic_status": "SOLD_OUT",
+      "replay": true,
+      "latency_ms": 129.29941600000006,
+      "error": ""
+    },
+    {
+      "request_no": 11,
+      "reservation_id": "7705d920-25b9-55b5-b47f-4ae7b58b42a7",
+      "http_status": 409,
+      "semantic_status": "SOLD_OUT",
+      "replay": false,
+      "latency_ms": 117.12416700000006,
+      "error": ""
+    },
+    {
+      "request_no": 12,
+      "reservation_id": "540c6bdf-decf-539a-8e53-67a14c014909",
+      "http_status": 201,
+      "semantic_status": "SUCCEEDED",
+      "replay": false,
+      "latency_ms": 43.85095799999994,
+      "error": ""
+    },
+    {
+      "request_no": 13,
+      "reservation_id": "a40e4e24-79b4-5a82-ab28-343bec27b423",
+      "http_status": 201,
+      "semantic_status": "SUCCEEDED",
+      "replay": false,
+      "latency_ms": 48.633625000000016,
+      "error": ""
+    },
+    {
+      "request_no": 14,
+      "reservation_id": "c18c0793-3819-5fa5-ac7b-330d232af1bf",
+      "http_status": 201,
+      "semantic_status": "SUCCEEDED",
+      "replay": false,
+      "latency_ms": 40.363790999999985,
+      "error": ""
+    },
+    {
+      "request_no": 15,
+      "reservation_id": "523f8b30-4969-5b73-b84f-889c22eac9f5",
+      "http_status": 201,
+      "semantic_status": "SUCCEEDED",
+      "replay": false,
+      "latency_ms": 63.77983300000001,
+      "error": ""
+    },
+    {
+      "request_no": 16,
+      "reservation_id": "33c80686-02dd-5784-971f-22ea0661a8ef",
+      "http_status": 201,
+      "semantic_status": "SUCCEEDED",
+      "replay": false,
+      "latency_ms": 45.17241699999997,
+      "error": ""
+    },
+    {
+      "request_no": 17,
+      "reservation_id": "1ad5820b-d473-5190-ba4e-10ba531609ef",
+      "http_status": 201,
+      "semantic_status": "SUCCEEDED",
+      "replay": false,
+      "latency_ms": 97.73733399999995,
+      "error": ""
+    },
+    {
+      "request_no": 18,
+      "reservation_id": "d2d0b159-39ad-567d-943a-dcc63d5f058f",
+      "http_status": 201,
+      "semantic_status": "SUCCEEDED",
+      "replay": false,
+      "latency_ms": 21.683750000000003,
+      "error": ""
+    },
+    {
+      "request_no": 19,
+      "reservation_id": "7bcbe4e9-28ef-5a2f-aaf6-ef2833d95e35",
+      "http_status": 201,
+      "semantic_status": "SUCCEEDED",
+      "replay": false,
+      "latency_ms": 66.99674999999993,
+      "error": ""
+    },
+    {
+      "request_no": 20,
+      "reservation_id": "7bcbe4e9-28ef-5a2f-aaf6-ef2833d95e35",
+      "http_status": 200,
+      "semantic_status": "SUCCEEDED",
+      "replay": true,
+      "latency_ms": 67.07620800000002,
+      "error": ""
+    },
+    {
+      "request_no": 21,
+      "reservation_id": "482a4b42-27ce-51c3-ad2e-d5d2ac5b1337",
+      "http_status": 201,
+      "semantic_status": "SUCCEEDED",
+      "replay": false,
+      "latency_ms": 86.36870799999996,
+      "error": ""
+    },
+    {
+      "request_no": 22,
+      "reservation_id": "502b690a-3c56-52e2-8016-8cff3746da1e",
+      "http_status": 201,
+      "semantic_status": "SUCCEEDED",
+      "replay": false,
+      "latency_ms": 56.16899999999991,
+      "error": ""
+    },
+    {
+      "request_no": 23,
+      "reservation_id": "cb4367a8-715a-5822-8f9e-f74a8955a5b4",
+      "http_status": 201,
+      "semantic_status": "SUCCEEDED",
+      "replay": false,
+      "latency_ms": 77.10379099999997,
+      "error": ""
+    },
+    {
+      "request_no": 24,
+      "reservation_id": "1d088b40-323a-502b-a435-0316a0abbde2",
+      "http_status": 201,
+      "semantic_status": "SUCCEEDED",
+      "replay": false,
+      "latency_ms": 35.7580420000001,
+      "error": ""
+    },
+    {
+      "request_no": 25,
+      "reservation_id": "d04e6255-85e9-5fbf-bdaf-3158742487bf",
+      "http_status": 409,
+      "semantic_status": "SOLD_OUT",
+      "replay": false,
+      "latency_ms": 126.605458,
+      "error": ""
+    },
+    {
+      "request_no": 26,
+      "reservation_id": "5f45af9a-0ce9-519a-ba38-e39c70cb22fa",
+      "http_status": 201,
+      "semantic_status": "SUCCEEDED",
+      "replay": false,
+      "latency_ms": 112.36045800000005,
+      "error": ""
+    },
+    {
+      "request_no": 27,
+      "reservation_id": "88bec0f9-b813-58d9-a84e-c7fc1516f114",
+      "http_status": 409,
+      "semantic_status": "SOLD_OUT",
+      "replay": false,
+      "latency_ms": 125.77850000000001,
+      "error": ""
+    },
+    {
+      "request_no": 28,
+      "reservation_id": "8b092ca6-38e5-5a27-be6c-e9938c379284",
+      "http_status": 201,
+      "semantic_status": "SUCCEEDED",
+      "replay": false,
+      "latency_ms": 51.005124999999985,
+      "error": ""
+    },
+    {
+      "request_no": 29,
+      "reservation_id": "853c3553-b9af-5b19-b20d-3fea8ccb8042",
+      "http_status": 201,
+      "semantic_status": "SUCCEEDED",
+      "replay": false,
+      "latency_ms": 23.959958000000057,
+      "error": ""
+    },
+    {
+      "request_no": 30,
+      "reservation_id": "853c3553-b9af-5b19-b20d-3fea8ccb8042",
+      "http_status": 200,
+      "semantic_status": "SUCCEEDED",
+      "replay": true,
+      "latency_ms": 63.90399999999996,
+      "error": ""
+    },
+    {
+      "request_no": 31,
+      "reservation_id": "cda32106-2e76-50c9-8d24-92d5cd50232e",
+      "http_status": 201,
+      "semantic_status": "SUCCEEDED",
+      "replay": false,
+      "latency_ms": 82.33070799999997,
+      "error": ""
+    },
+    {
+      "request_no": 32,
+      "reservation_id": "2f109d65-59ae-527f-9c63-f27eb4cbe9d8",
+      "http_status": 409,
+      "semantic_status": "SOLD_OUT",
+      "replay": false,
+      "latency_ms": 117.158792,
+      "error": ""
+    },
+    {
+      "request_no": 33,
+      "reservation_id": "b642bd60-3c36-521e-aeea-2f76fb709404",
+      "http_status": 201,
+      "semantic_status": "SUCCEEDED",
+      "replay": false,
+      "latency_ms": 92.14337499999992,
+      "error": ""
+    },
+    {
+      "request_no": 34,
+      "reservation_id": "78efc54a-c879-5c63-9729-df0ff906e2c3",
+      "http_status": 201,
+      "semantic_status": "SUCCEEDED",
+      "replay": false,
+      "latency_ms": 106.25366699999994,
+      "error": ""
+    },
+    {
+      "request_no": 35,
+      "reservation_id": "308462d7-c991-5a9b-a218-14d163998977",
+      "http_status": 201,
+      "semantic_status": "SUCCEEDED",
+      "replay": false,
+      "latency_ms": 33.491207999999936,
+      "error": ""
+    },
+    {
+      "request_no": 36,
+      "reservation_id": "aff9aec5-a0a8-5391-bc7f-f364b551ddee",
+      "http_status": 201,
+      "semantic_status": "SUCCEEDED",
+      "replay": false,
+      "latency_ms": 58.93737499999996,
+      "error": ""
+    },
+    {
+      "request_no": 37,
+      "reservation_id": "347ea871-dcf8-5435-97bd-44ec6608cd8d",
+      "http_status": 201,
+      "semantic_status": "SUCCEEDED",
+      "replay": false,
+      "latency_ms": 51.981375,
+      "error": ""
+    },
+    {
+      "request_no": 38,
+      "reservation_id": "1a938436-4896-5f90-8e11-7f30c39f74aa",
+      "http_status": 201,
+      "semantic_status": "SUCCEEDED",
+      "replay": false,
+      "latency_ms": 70.80483299999996,
+      "error": ""
+    },
+    {
+      "request_no": 39,
+      "reservation_id": "d7dd81cb-c0e1-5e99-a624-9d2b30e86339",
+      "http_status": 201,
+      "semantic_status": "SUCCEEDED",
+      "replay": false,
+      "latency_ms": 80.85712499999997,
+      "error": ""
+    },
+    {
+      "request_no": 40,
+      "reservation_id": "d7dd81cb-c0e1-5e99-a624-9d2b30e86339",
+      "http_status": 200,
+      "semantic_status": "SUCCEEDED",
+      "replay": true,
+      "latency_ms": 81.21000000000001,
+      "error": ""
+    },
+    {
+      "request_no": 41,
+      "reservation_id": "2e74c487-1db1-53e6-a355-b5230a3505c3",
+      "http_status": 201,
+      "semantic_status": "SUCCEEDED",
+      "replay": false,
+      "latency_ms": 75.48549999999999,
+      "error": ""
+    },
+    {
+      "request_no": 42,
+      "reservation_id": "4af003e1-f1d5-5624-ba57-10e0fd615e6b",
+      "http_status": 409,
+      "semantic_status": "SOLD_OUT",
+      "replay": false,
+      "latency_ms": 125.41883399999998,
+      "error": ""
+    },
+    {
+      "request_no": 43,
+      "reservation_id": "609a3893-9b0d-55cb-8eac-b2b390ea6cdd",
+      "http_status": 201,
+      "semantic_status": "SUCCEEDED",
+      "replay": false,
+      "latency_ms": 52.68191700000002,
+      "error": ""
+    },
+    {
+      "request_no": 44,
+      "reservation_id": "000e0d9b-d3f2-55af-8ea7-f8574e436654",
+      "http_status": 201,
+      "semantic_status": "SUCCEEDED",
+      "replay": false,
+      "latency_ms": 60.91249999999992,
+      "error": ""
+    },
+    {
+      "request_no": 45,
+      "reservation_id": "b4906bbb-de33-5058-8e03-497149313d06",
+      "http_status": 201,
+      "semantic_status": "SUCCEEDED",
+      "replay": false,
+      "latency_ms": 48.35229200000002,
+      "error": ""
+    },
+    {
+      "request_no": 46,
+      "reservation_id": "fffd2d86-6710-574e-ad9f-02e9af9d41d7",
+      "http_status": 201,
+      "semantic_status": "SUCCEEDED",
+      "replay": false,
+      "latency_ms": 110.23029099999992,
+      "error": ""
+    },
+    {
+      "request_no": 47,
+      "reservation_id": "a8b679af-5f90-578c-83ce-26fb52be9189",
+      "http_status": 201,
+      "semantic_status": "SUCCEEDED",
+      "replay": false,
+      "latency_ms": 71.28037500000006,
+      "error": ""
+    },
+    {
+      "request_no": 48,
+      "reservation_id": "94d7c230-c532-50f6-88c4-dc12637f5f8c",
+      "http_status": 201,
+      "semantic_status": "SUCCEEDED",
+      "replay": false,
+      "latency_ms": 99.47304200000006,
+      "error": ""
+    },
+    {
+      "request_no": 49,
+      "reservation_id": "209ff314-6f20-554b-b79b-e4936467ec9f",
+      "http_status": 200,
+      "semantic_status": "SUCCEEDED",
+      "replay": true,
+      "latency_ms": 96.09258399999999,
+      "error": ""
+    },
+    {
+      "request_no": 50,
+      "reservation_id": "209ff314-6f20-554b-b79b-e4936467ec9f",
+      "http_status": 201,
+      "semantic_status": "SUCCEEDED",
+      "replay": false,
+      "latency_ms": 60.62362500000007,
+      "error": ""
+    },
+    {
+      "request_no": 51,
+      "reservation_id": "4621fa35-0cf0-5ddd-a935-aa8ae9f3110d",
+      "http_status": 201,
+      "semantic_status": "SUCCEEDED",
+      "replay": false,
+      "latency_ms": 91.85837500000005,
+      "error": ""
+    },
+    {
+      "request_no": 52,
+      "reservation_id": "31d89daa-9ad5-5c69-9f0c-41850235bac0",
+      "http_status": 201,
+      "semantic_status": "SUCCEEDED",
+      "replay": false,
+      "latency_ms": 36.93537499999999,
+      "error": ""
+    },
+    {
+      "request_no": 53,
+      "reservation_id": "0a727399-a0f3-5f01-a597-5ba6e1230ffd",
+      "http_status": 409,
+      "semantic_status": "SOLD_OUT",
+      "replay": false,
+      "latency_ms": 114.20141699999998,
+      "error": ""
+    },
+    {
+      "request_no": 54,
+      "reservation_id": "16ee1d6e-9d06-55fc-a359-c7a134d00600",
+      "http_status": 201,
+      "semantic_status": "SUCCEEDED",
+      "replay": false,
+      "latency_ms": 73.042084,
+      "error": ""
+    },
+    {
+      "request_no": 55,
+      "reservation_id": "d5189a00-0619-5861-a6cc-c54905810be3",
+      "http_status": 201,
+      "semantic_status": "SUCCEEDED",
+      "replay": false,
+      "latency_ms": 66.32366700000003,
+      "error": ""
+    },
+    {
+      "request_no": 56,
+      "reservation_id": "039cf1a6-df36-5051-9b7d-ff00afe9f873",
+      "http_status": 409,
+      "semantic_status": "SOLD_OUT",
+      "replay": false,
+      "latency_ms": 115.66050000000006,
+      "error": ""
+    },
+    {
+      "request_no": 57,
+      "reservation_id": "edb9ae85-286b-5bda-8fbf-1cac42ddd55e",
+      "http_status": 409,
+      "semantic_status": "SOLD_OUT",
+      "replay": false,
+      "latency_ms": 117.88312499999998,
+      "error": ""
+    },
+    {
+      "request_no": 58,
+      "reservation_id": "b8b7462c-a7d6-5add-bf77-9817d9a7f8a1",
+      "http_status": 409,
+      "semantic_status": "SOLD_OUT",
+      "replay": false,
+      "latency_ms": 117.26291700000002,
+      "error": ""
+    },
+    {
+      "request_no": 59,
+      "reservation_id": "23a0bd87-a470-5fd2-b8ad-5b3c15f9c4f4",
+      "http_status": 201,
+      "semantic_status": "SUCCEEDED",
+      "replay": false,
+      "latency_ms": 34.67758399999998,
+      "error": ""
+    },
+    {
+      "request_no": 60,
+      "reservation_id": "23a0bd87-a470-5fd2-b8ad-5b3c15f9c4f4",
+      "http_status": 200,
+      "semantic_status": "SUCCEEDED",
+      "replay": true,
+      "latency_ms": 37.13933399999991,
+      "error": ""
+    },
+    {
+      "request_no": 61,
+      "reservation_id": "eb13c103-8bd9-502d-818e-5be59ed502e1",
+      "http_status": 409,
+      "semantic_status": "SOLD_OUT",
+      "replay": false,
+      "latency_ms": 117.68979199999995,
+      "error": ""
+    },
+    {
+      "request_no": 62,
+      "reservation_id": "cf06ee0b-a84c-5fb3-bb50-ad6caae02292",
+      "http_status": 409,
+      "semantic_status": "SOLD_OUT",
+      "replay": false,
+      "latency_ms": 123.88862500000009,
+      "error": ""
+    },
+    {
+      "request_no": 63,
+      "reservation_id": "294d288a-9fc6-596a-9499-b5e92fa48240",
+      "http_status": 201,
+      "semantic_status": "SUCCEEDED",
+      "replay": false,
+      "latency_ms": 58.766415999999985,
+      "error": ""
+    },
+    {
+      "request_no": 64,
+      "reservation_id": "83cf95e2-ca23-50b1-981a-b674dd250f6a",
+      "http_status": 201,
+      "semantic_status": "SUCCEEDED",
+      "replay": false,
+      "latency_ms": 72.48516599999999,
+      "error": ""
+    },
+    {
+      "request_no": 65,
+      "reservation_id": "ca2c78f7-05ee-5027-88ab-d410b51808dc",
+      "http_status": 201,
+      "semantic_status": "SUCCEEDED",
+      "replay": false,
+      "latency_ms": 56.99437500000004,
+      "error": ""
+    },
+    {
+      "request_no": 66,
+      "reservation_id": "69e234f9-72e9-51db-83c3-9c297d4373a6",
+      "http_status": 409,
+      "semantic_status": "SOLD_OUT",
+      "replay": false,
+      "latency_ms": 118.68950000000001,
+      "error": ""
+    },
+    {
+      "request_no": 67,
+      "reservation_id": "4a654959-17b4-5694-bff3-ffe2cd5c407a",
+      "http_status": 201,
+      "semantic_status": "SUCCEEDED",
+      "replay": false,
+      "latency_ms": 104.74799999999995,
+      "error": ""
+    },
+    {
+      "request_no": 68,
+      "reservation_id": "b4f53c9f-de0d-5488-b7a7-cfb716e667d0",
+      "http_status": 201,
+      "semantic_status": "SUCCEEDED",
+      "replay": false,
+      "latency_ms": 98.98304199999997,
+      "error": ""
+    },
+    {
+      "request_no": 69,
+      "reservation_id": "8d4f39e8-bec4-5d5d-80fd-3da2394001ee",
+      "http_status": 200,
+      "semantic_status": "SUCCEEDED",
+      "replay": true,
+      "latency_ms": 114.981,
+      "error": ""
+    },
+    {
+      "request_no": 70,
+      "reservation_id": "8d4f39e8-bec4-5d5d-80fd-3da2394001ee",
+      "http_status": 201,
+      "semantic_status": "SUCCEEDED",
+      "replay": false,
+      "latency_ms": 99.95358300000001,
+      "error": ""
+    },
+    {
+      "request_no": 71,
+      "reservation_id": "d0242a39-dd47-5058-bc37-7c2d176661b0",
+      "http_status": 409,
+      "semantic_status": "SOLD_OUT",
+      "replay": false,
+      "latency_ms": 114.36749999999995,
+      "error": ""
+    },
+    {
+      "request_no": 72,
+      "reservation_id": "3635b85c-b66d-5d07-8194-0874289f6a7f",
+      "http_status": 201,
+      "semantic_status": "SUCCEEDED",
+      "replay": false,
+      "latency_ms": 55.460874999999966,
+      "error": ""
+    },
+    {
+      "request_no": 73,
+      "reservation_id": "0b8f8d11-b579-50ba-bc24-eb9b4ed9f02a",
+      "http_status": 201,
+      "semantic_status": "SUCCEEDED",
+      "replay": false,
+      "latency_ms": 77.936334,
+      "error": ""
+    },
+    {
+      "request_no": 74,
+      "reservation_id": "627dc55a-771c-59d5-9069-949a80e5777c",
+      "http_status": 201,
+      "semantic_status": "SUCCEEDED",
+      "replay": false,
+      "latency_ms": 59.95091600000002,
+      "error": ""
+    },
+    {
+      "request_no": 75,
+      "reservation_id": "2588b4db-fd50-57c2-b621-81fb934968b7",
+      "http_status": 201,
+      "semantic_status": "SUCCEEDED",
+      "replay": false,
+      "latency_ms": 71.05941699999995,
+      "error": ""
+    },
+    {
+      "request_no": 76,
+      "reservation_id": "04f13092-d1d0-518e-9ec5-97b8be31c216",
+      "http_status": 201,
+      "semantic_status": "SUCCEEDED",
+      "replay": false,
+      "latency_ms": 97.4025420000001,
+      "error": ""
+    },
+    {
+      "request_no": 77,
+      "reservation_id": "91712a15-e62b-5c22-bdb8-356ff95ed3c5",
+      "http_status": 201,
+      "semantic_status": "SUCCEEDED",
+      "replay": false,
+      "latency_ms": 80.06829100000002,
+      "error": ""
+    },
+    {
+      "request_no": 78,
+      "reservation_id": "2d844c41-6b52-5a69-9471-71cfe7a98385",
+      "http_status": 409,
+      "semantic_status": "SOLD_OUT",
+      "replay": false,
+      "latency_ms": 122.45537499999992,
+      "error": ""
+    },
+    {
+      "request_no": 79,
+      "reservation_id": "ec460096-9aa1-5710-9dc3-6dcf3600b058",
+      "http_status": 201,
+      "semantic_status": "SUCCEEDED",
+      "replay": false,
+      "latency_ms": 62.89341600000009,
+      "error": ""
+    },
+    {
+      "request_no": 80,
+      "reservation_id": "ec460096-9aa1-5710-9dc3-6dcf3600b058",
+      "http_status": 200,
+      "semantic_status": "SUCCEEDED",
+      "replay": true,
+      "latency_ms": 109.14558400000007,
+      "error": ""
+    },
+    {
+      "request_no": 81,
+      "reservation_id": "dfe4077a-a2c4-5c54-9020-e975b170c278",
+      "http_status": 201,
+      "semantic_status": "SUCCEEDED",
+      "replay": false,
+      "latency_ms": 76.03829200000001,
+      "error": ""
+    },
+    {
+      "request_no": 82,
+      "reservation_id": "99358e8d-f036-5331-ab0c-0fd96b9859b7",
+      "http_status": 201,
+      "semantic_status": "SUCCEEDED",
+      "replay": false,
+      "latency_ms": 63.348415999999965,
+      "error": ""
+    },
+    {
+      "request_no": 83,
+      "reservation_id": "12def461-0f0b-54fa-a6ef-04796deb2a4e",
+      "http_status": 201,
+      "semantic_status": "SUCCEEDED",
+      "replay": false,
+      "latency_ms": 105.42991600000006,
+      "error": ""
+    },
+    {
+      "request_no": 84,
+      "reservation_id": "7d3905d1-8a32-5014-b61a-df7de8af3ff7",
+      "http_status": 201,
+      "semantic_status": "SUCCEEDED",
+      "replay": false,
+      "latency_ms": 55.77612499999995,
+      "error": ""
+    },
+    {
+      "request_no": 85,
+      "reservation_id": "205aebb7-e9e4-5566-98cc-ce0ab8794d28",
+      "http_status": 409,
+      "semantic_status": "SOLD_OUT",
+      "replay": false,
+      "latency_ms": 116.88399999999999,
+      "error": ""
+    },
+    {
+      "request_no": 86,
+      "reservation_id": "c4bc334a-21bf-5261-be77-84c9f45aba9b",
+      "http_status": 201,
+      "semantic_status": "SUCCEEDED",
+      "replay": false,
+      "latency_ms": 69.44974999999998,
+      "error": ""
+    },
+    {
+      "request_no": 87,
+      "reservation_id": "52083093-df03-5a2f-9cbc-809ef0230291",
+      "http_status": 201,
+      "semantic_status": "SUCCEEDED",
+      "replay": false,
+      "latency_ms": 72.97633300000005,
+      "error": ""
+    },
+    {
+      "request_no": 88,
+      "reservation_id": "589f67b0-dc39-5625-a2f5-e0eba360c5b8",
+      "http_status": 201,
+      "semantic_status": "SUCCEEDED",
+      "replay": false,
+      "latency_ms": 67.2815,
+      "error": ""
+    },
+    {
+      "request_no": 89,
+      "reservation_id": "76a776c6-32c0-5a62-a1ec-2d32433f0d50",
+      "http_status": 200,
+      "semantic_status": "SUCCEEDED",
+      "replay": true,
+      "latency_ms": 121.66854199999999,
+      "error": ""
+    },
+    {
+      "request_no": 90,
+      "reservation_id": "76a776c6-32c0-5a62-a1ec-2d32433f0d50",
+      "http_status": 201,
+      "semantic_status": "SUCCEEDED",
+      "replay": false,
+      "latency_ms": 84.94962499999991,
+      "error": ""
+    },
+    {
+      "request_no": 91,
+      "reservation_id": "866ada25-7d3d-51a4-a2a0-699338732607",
+      "http_status": 201,
+      "semantic_status": "SUCCEEDED",
+      "replay": false,
+      "latency_ms": 81.30895800000005,
+      "error": ""
+    },
+    {
+      "request_no": 92,
+      "reservation_id": "bb67b137-6836-55ae-9194-2f15885e0f1f",
+      "http_status": 409,
+      "semantic_status": "SOLD_OUT",
+      "replay": false,
+      "latency_ms": 114.29137499999997,
+      "error": ""
+    },
+    {
+      "request_no": 93,
+      "reservation_id": "7eb86600-72f9-5887-a1f2-270a028f1312",
+      "http_status": 409,
+      "semantic_status": "SOLD_OUT",
+      "replay": false,
+      "latency_ms": 123.42283300000001,
+      "error": ""
+    },
+    {
+      "request_no": 94,
+      "reservation_id": "6ab44868-e0e6-52aa-bf97-4749f97ba639",
+      "http_status": 201,
+      "semantic_status": "SUCCEEDED",
+      "replay": false,
+      "latency_ms": 84.24183399999995,
+      "error": ""
+    },
+    {
+      "request_no": 95,
+      "reservation_id": "03c14b32-454a-5707-abef-64c436939667",
+      "http_status": 201,
+      "semantic_status": "SUCCEEDED",
+      "replay": false,
+      "latency_ms": 84.62833399999991,
+      "error": ""
+    },
+    {
+      "request_no": 96,
+      "reservation_id": "ff4af672-3219-56cc-a5a7-a549120bd58f",
+      "http_status": 201,
+      "semantic_status": "SUCCEEDED",
+      "replay": false,
+      "latency_ms": 52.611833000000054,
+      "error": ""
+    },
+    {
+      "request_no": 97,
+      "reservation_id": "09f89e8f-d176-51cf-85e6-2103bb7d5313",
+      "http_status": 409,
+      "semantic_status": "SOLD_OUT",
+      "replay": false,
+      "latency_ms": 118.03712499999996,
+      "error": ""
+    },
+    {
+      "request_no": 98,
+      "reservation_id": "db39b564-683e-59ac-b203-113d929c2dd8",
+      "http_status": 409,
+      "semantic_status": "SOLD_OUT",
+      "replay": false,
+      "latency_ms": 124.29445799999993,
+      "error": ""
+    },
+    {
+      "request_no": 99,
+      "reservation_id": "b32f5723-cd82-5d5b-ace9-e08564078506",
+      "http_status": 201,
+      "semantic_status": "SUCCEEDED",
+      "replay": false,
+      "latency_ms": 77.85062499999995,
+      "error": ""
+    },
+    {
+      "request_no": 100,
+      "reservation_id": "b32f5723-cd82-5d5b-ace9-e08564078506",
+      "http_status": 200,
+      "semantic_status": "SUCCEEDED",
+      "replay": true,
+      "latency_ms": 113.57729099999992,
+      "error": ""
+    },
+    {
+      "request_no": 101,
+      "reservation_id": "43e33c85-5662-56f6-82ea-5a0549f7841b",
+      "http_status": 201,
+      "semantic_status": "SUCCEEDED",
+      "replay": false,
+      "latency_ms": 53.457958999999946,
+      "error": ""
+    },
+    {
+      "request_no": 102,
+      "reservation_id": "f4fe3fda-b33a-5bfb-a7c0-75309d490795",
+      "http_status": 409,
+      "semantic_status": "SOLD_OUT",
+      "replay": false,
+      "latency_ms": 115.10637499999999,
+      "error": ""
+    },
+    {
+      "request_no": 103,
+      "reservation_id": "cc13399c-8a3b-50bc-97d9-e7ff12fb8802",
+      "http_status": 201,
+      "semantic_status": "SUCCEEDED",
+      "replay": false,
+      "latency_ms": 111.14804200000006,
+      "error": ""
+    },
+    {
+      "request_no": 104,
+      "reservation_id": "c7aa57cc-3ada-593e-bda9-5ad8d85fd9da",
+      "http_status": 409,
+      "semantic_status": "SOLD_OUT",
+      "replay": false,
+      "latency_ms": 111.663917,
+      "error": ""
+    },
+    {
+      "request_no": 105,
+      "reservation_id": "19f23420-8206-5996-ba17-6414d55160d8",
+      "http_status": 409,
+      "semantic_status": "SOLD_OUT",
+      "replay": false,
+      "latency_ms": 124.62012500000009,
+      "error": ""
+    },
+    {
+      "request_no": 106,
+      "reservation_id": "23a905c9-b3f9-5372-a832-d83a3cb3fcd3",
+      "http_status": 201,
+      "semantic_status": "SUCCEEDED",
+      "replay": false,
+      "latency_ms": 87.55270900000001,
+      "error": ""
+    },
+    {
+      "request_no": 107,
+      "reservation_id": "b33b8ade-32ee-5186-b597-1011c8308583",
+      "http_status": 409,
+      "semantic_status": "SOLD_OUT",
+      "replay": false,
+      "latency_ms": 119.03120899999998,
+      "error": ""
+    },
+    {
+      "request_no": 108,
+      "reservation_id": "436505d4-5897-599c-b267-588ed6ff39b1",
+      "http_status": 409,
+      "semantic_status": "SOLD_OUT",
+      "replay": false,
+      "latency_ms": 113.101334,
+      "error": ""
+    },
+    {
+      "request_no": 109,
+      "reservation_id": "8de770e8-a964-5fdb-8375-98c177c7c705",
+      "http_status": 201,
+      "semantic_status": "SUCCEEDED",
+      "replay": false,
+      "latency_ms": 68.92279200000007,
+      "error": ""
+    },
+    {
+      "request_no": 110,
+      "reservation_id": "8de770e8-a964-5fdb-8375-98c177c7c705",
+      "http_status": 200,
+      "semantic_status": "SUCCEEDED",
+      "replay": true,
+      "latency_ms": 84.09479100000006,
+      "error": ""
+    },
+    {
+      "request_no": 111,
+      "reservation_id": "9e938f2c-0ccd-50ea-8a6e-57321e0b9d83",
+      "http_status": 201,
+      "semantic_status": "SUCCEEDED",
+      "replay": false,
+      "latency_ms": 83.319959,
+      "error": ""
+    },
+    {
+      "request_no": 112,
+      "reservation_id": "8905cb24-7ed1-5cab-aba7-d8a9948b8439",
+      "http_status": 201,
+      "semantic_status": "SUCCEEDED",
+      "replay": false,
+      "latency_ms": 109.65295800000008,
+      "error": ""
+    },
+    {
+      "request_no": 113,
+      "reservation_id": "ebe28b86-d005-5589-b7ca-9de08f62da9d",
+      "http_status": 201,
+      "semantic_status": "SUCCEEDED",
+      "replay": false,
+      "latency_ms": 91.916875,
+      "error": ""
+    },
+    {
+      "request_no": 114,
+      "reservation_id": "534fa063-3485-5ab9-837a-0d3aff49fd4f",
+      "http_status": 201,
+      "semantic_status": "SUCCEEDED",
+      "replay": false,
+      "latency_ms": 48.24558300000004,
+      "error": ""
+    },
+    {
+      "request_no": 115,
+      "reservation_id": "1aa5d158-7def-5dca-8d74-47905eed049f",
+      "http_status": 201,
+      "semantic_status": "SUCCEEDED",
+      "replay": false,
+      "latency_ms": 71.241208,
+      "error": ""
+    },
+    {
+      "request_no": 116,
+      "reservation_id": "ded4948c-4289-56fd-8e09-e36ba5932a1f",
+      "http_status": 409,
+      "semantic_status": "SOLD_OUT",
+      "replay": false,
+      "latency_ms": 115.11387500000004,
+      "error": ""
+    },
+    {
+      "request_no": 117,
+      "reservation_id": "d0a98873-af17-5e45-b12f-8f8ae057784b",
+      "http_status": 201,
+      "semantic_status": "SUCCEEDED",
+      "replay": false,
+      "latency_ms": 106.41662499999993,
+      "error": ""
+    },
+    {
+      "request_no": 118,
+      "reservation_id": "da385bb8-7d2c-5018-937d-84264ab19871",
+      "http_status": 409,
+      "semantic_status": "SOLD_OUT",
+      "replay": false,
+      "latency_ms": 111.79962499999996,
+      "error": ""
+    },
+    {
+      "request_no": 119,
+      "reservation_id": "3f7e9333-e036-5e98-a604-f6352d96b5f2",
+      "http_status": 200,
+      "semantic_status": "SUCCEEDED",
+      "replay": true,
+      "latency_ms": 94.00591699999994,
+      "error": ""
+    },
+    {
+      "request_no": 120,
+      "reservation_id": "3f7e9333-e036-5e98-a604-f6352d96b5f2",
+      "http_status": 201,
+      "semantic_status": "SUCCEEDED",
+      "replay": false,
+      "latency_ms": 59.253541999999996,
+      "error": ""
+    },
+    {
+      "request_no": 121,
+      "reservation_id": "e0b11234-24da-5319-b152-b36c52db6089",
+      "http_status": 409,
+      "semantic_status": "SOLD_OUT",
+      "replay": false,
+      "latency_ms": 120.25550000000007,
+      "error": ""
+    },
+    {
+      "request_no": 122,
+      "reservation_id": "a3265384-8aeb-593c-aa1f-05325258f3c2",
+      "http_status": 201,
+      "semantic_status": "SUCCEEDED",
+      "replay": false,
+      "latency_ms": 99.35091699999998,
+      "error": ""
+    },
+    {
+      "request_no": 123,
+      "reservation_id": "55868931-dcad-5673-afd9-d743c33ca89f",
+      "http_status": 409,
+      "semantic_status": "SOLD_OUT",
+      "replay": false,
+      "latency_ms": 116.07666700000007,
+      "error": ""
+    },
+    {
+      "request_no": 124,
+      "reservation_id": "96314879-2d41-5b34-bc02-afb78e1200a2",
+      "http_status": 201,
+      "semantic_status": "SUCCEEDED",
+      "replay": false,
+      "latency_ms": 73.96483300000001,
+      "error": ""
+    },
+    {
+      "request_no": 125,
+      "reservation_id": "a4a7b10f-d539-5020-8fce-9d55746c0236",
+      "http_status": 201,
+      "semantic_status": "SUCCEEDED",
+      "replay": false,
+      "latency_ms": 66.793416,
+      "error": ""
+    },
+    {
+      "request_no": 126,
+      "reservation_id": "3e8abc8f-d98a-5b15-9b80-3b53cef068c4",
+      "http_status": 409,
+      "semantic_status": "SOLD_OUT",
+      "replay": false,
+      "latency_ms": 121.194083,
+      "error": ""
+    },
+    {
+      "request_no": 127,
+      "reservation_id": "6bfa518b-6fb7-564c-b86e-1bfebd958ad1",
+      "http_status": 409,
+      "semantic_status": "SOLD_OUT",
+      "replay": false,
+      "latency_ms": 119.62920900000007,
+      "error": ""
+    },
+    {
+      "request_no": 128,
+      "reservation_id": "d8a24877-b1a5-5f96-8407-9aa5beed188e",
+      "http_status": 201,
+      "semantic_status": "SUCCEEDED",
+      "replay": false,
+      "latency_ms": 87.82433300000004,
+      "error": ""
+    },
+    {
+      "request_no": 129,
+      "reservation_id": "42e8bc50-a42e-56da-b0dc-05a9c11091d1",
+      "http_status": 201,
+      "semantic_status": "SUCCEEDED",
+      "replay": false,
+      "latency_ms": 106.50820799999994,
+      "error": ""
+    },
+    {
+      "request_no": 130,
+      "reservation_id": "42e8bc50-a42e-56da-b0dc-05a9c11091d1",
+      "http_status": 200,
+      "semantic_status": "SUCCEEDED",
+      "replay": true,
+      "latency_ms": 106.85912499999995,
+      "error": ""
+    },
+    {
+      "request_no": 131,
+      "reservation_id": "f7a0a994-4af3-5510-9880-16c2a217bf45",
+      "http_status": 201,
+      "semantic_status": "SUCCEEDED",
+      "replay": false,
+      "latency_ms": 91.39075000000008,
+      "error": ""
+    },
+    {
+      "request_no": 132,
+      "reservation_id": "3a834991-9c25-5c15-9829-2fa5e5f5ad29",
+      "http_status": 201,
+      "semantic_status": "SUCCEEDED",
+      "replay": false,
+      "latency_ms": 85.13466599999997,
+      "error": ""
+    },
+    {
+      "request_no": 133,
+      "reservation_id": "6d5c3a67-44bc-5eb1-91e8-a5a146bb4e83",
+      "http_status": 201,
+      "semantic_status": "SUCCEEDED",
+      "replay": false,
+      "latency_ms": 93.04666700000008,
+      "error": ""
+    },
+    {
+      "request_no": 134,
+      "reservation_id": "ca2c5fe9-22e1-5cad-84b6-806865e09d1b",
+      "http_status": 201,
+      "semantic_status": "SUCCEEDED",
+      "replay": false,
+      "latency_ms": 100.87100000000004,
+      "error": ""
+    },
+    {
+      "request_no": 135,
+      "reservation_id": "f26cec1f-d7e9-5b05-a956-d6ba1acbc390",
+      "http_status": 409,
+      "semantic_status": "SOLD_OUT",
+      "replay": false,
+      "latency_ms": 118.60333300000003,
+      "error": ""
+    },
+    {
+      "request_no": 136,
+      "reservation_id": "66e70731-53c4-5599-a1a6-83eb4daa00fc",
+      "http_status": 201,
+      "semantic_status": "SUCCEEDED",
+      "replay": false,
+      "latency_ms": 73.68308300000004,
+      "error": ""
+    },
+    {
+      "request_no": 137,
+      "reservation_id": "e5928c2b-859d-5af6-bdc9-6383e97b72cf",
+      "http_status": 201,
+      "semantic_status": "SUCCEEDED",
+      "replay": false,
+      "latency_ms": 94.27604200000006,
+      "error": ""
+    },
+    {
+      "request_no": 138,
+      "reservation_id": "594fefbb-8243-5fe0-bfab-863a0accd9a4",
+      "http_status": 201,
+      "semantic_status": "SUCCEEDED",
+      "replay": false,
+      "latency_ms": 80.49425,
+      "error": ""
+    },
+    {
+      "request_no": 139,
+      "reservation_id": "3e1135bd-21d4-55e0-91bd-6394cb9c961a",
+      "http_status": 200,
+      "semantic_status": "SUCCEEDED",
+      "replay": true,
+      "latency_ms": 57.78550000000004,
+      "error": ""
+    },
+    {
+      "request_no": 140,
+      "reservation_id": "3e1135bd-21d4-55e0-91bd-6394cb9c961a",
+      "http_status": 201,
+      "semantic_status": "SUCCEEDED",
+      "replay": false,
+      "latency_ms": 42.05879200000007,
+      "error": ""
+    },
+    {
+      "request_no": 141,
+      "reservation_id": "cba88f89-5d11-593b-943c-85af7a816dc5",
+      "http_status": 409,
+      "semantic_status": "SOLD_OUT",
+      "replay": false,
+      "latency_ms": 117.74341599999994,
+      "error": ""
+    },
+    {
+      "request_no": 142,
+      "reservation_id": "a939fa7d-c6fc-5138-abb2-6ac2ee9bedad",
+      "http_status": 201,
+      "semantic_status": "SUCCEEDED",
+      "replay": false,
+      "latency_ms": 100.40637500000005,
+      "error": ""
+    },
+    {
+      "request_no": 143,
+      "reservation_id": "ea8b5d0f-db5b-5d95-9ba4-a152ba476e48",
+      "http_status": 201,
+      "semantic_status": "SUCCEEDED",
+      "replay": false,
+      "latency_ms": 84.29495799999998,
+      "error": ""
+    },
+    {
+      "request_no": 144,
+      "reservation_id": "e8f69df6-30d4-5edb-a091-712b02be9789",
+      "http_status": 409,
+      "semantic_status": "SOLD_OUT",
+      "replay": false,
+      "latency_ms": 110.10183399999995,
+      "error": ""
+    },
+    {
+      "request_no": 145,
+      "reservation_id": "fe043ca2-01a6-56e9-bf6d-aa46413e0214",
+      "http_status": 409,
+      "semantic_status": "SOLD_OUT",
+      "replay": false,
+      "latency_ms": 120.33670899999993,
+      "error": ""
+    },
+    {
+      "request_no": 146,
+      "reservation_id": "6cf54a95-a74b-57ed-ac0a-0242005a5a68",
+      "http_status": 409,
+      "semantic_status": "SOLD_OUT",
+      "replay": false,
+      "latency_ms": 118.99312500000003,
+      "error": ""
+    },
+    {
+      "request_no": 147,
+      "reservation_id": "86c01188-c2e7-5135-aff1-bb091abd490f",
+      "http_status": 201,
+      "semantic_status": "SUCCEEDED",
+      "replay": false,
+      "latency_ms": 80.77958399999996,
+      "error": ""
+    },
+    {
+      "request_no": 148,
+      "reservation_id": "7d96a462-3e90-5c17-9747-b9b85e5fba18",
+      "http_status": 201,
+      "semantic_status": "SUCCEEDED",
+      "replay": false,
+      "latency_ms": 91.12820899999996,
+      "error": ""
+    },
+    {
+      "request_no": 149,
+      "reservation_id": "e8a34f1a-ffcf-558a-bbff-440cd9f453e9",
+      "http_status": 201,
+      "semantic_status": "SUCCEEDED",
+      "replay": false,
+      "latency_ms": 102.00820899999997,
+      "error": ""
+    }
+  ]
+}

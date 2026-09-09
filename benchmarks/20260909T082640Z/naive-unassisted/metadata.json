@@ -1,0 +1,20 @@
+{
+  "timestamp_utc": "2026-09-09T08:27:40.083189+00:00",
+  "platform": "macOS-26.6.2-arm64-arm-64bit",
+  "python": "3.9.6",
+  "cpu_count": 8,
+  "arguments": {
+    "mode": "naive",
+    "urls": "http://localhost:8081",
+    "concurrency": "100",
+    "inventory": 100,
+    "attempts": 150,
+    "trials": 3,
+    "duplicate_every": 10,
+    "timeout": 8.0,
+    "output_dir": "results/20260909T082640Z/naive-unassisted",
+    "assert_safe": false,
+    "test_aid_delay_ms": 0,
+    "key_salt": "unassisted-20260909T0827"
+  }
+}

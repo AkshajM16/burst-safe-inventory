@@ -1,0 +1,20 @@
+{
+  "timestamp_utc": "2026-09-09T08:27:57.555020+00:00",
+  "platform": "macOS-26.6.2-arm64-arm-64bit",
+  "python": "3.9.6",
+  "cpu_count": 8,
+  "arguments": {
+    "mode": "safe",
+    "urls": "http://localhost:8080,http://localhost:8082",
+    "concurrency": "100,250",
+    "inventory": 100,
+    "attempts": 150,
+    "trials": 5,
+    "duplicate_every": 10,
+    "timeout": 8.0,
+    "output_dir": "results/20260909T082640Z/safe-two-replicas",
+    "assert_safe": true,
+    "test_aid_delay_ms": 0,
+    "key_salt": "replicas-20260909T0828"
+  }
+}

@@ -1,0 +1,13 @@
+target/
+.idea/
+.vscode/
+*.iml
+__pycache__/
+*.py[cod]
+.venv/
+results/
+*.log
+.env
+.env.*
+!.env.example
+.DS_Store

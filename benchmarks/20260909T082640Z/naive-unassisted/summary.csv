@@ -1,0 +1,4 @@
+timestamp_utc,mode,trial,concurrency,inventory,attempts,duplicate_every,replicas,item_id,successful_unique_reservations,committed_reserved_quantity,remaining_stock,invalid_oversold_success_count,duplicate_side_effect_count,invariant_gap,invariant_violations,requests_per_second,p50_ms,p95_ms,p99_ms,db_or_http_errors,transport_errors,elapsed_seconds,test_aid_delay_ms
+2026-09-09T08:27:39.701455+00:00,naive,1,100,100,150,10,1,34,136,136,91,36,0,-127,2,841.4049780323182,85.241792,161.563083,166.318166,0,0,0.17827325000000002,0
+2026-09-09T08:27:39.887693+00:00,naive,2,100,100,150,10,1,35,136,136,93,36,0,-129,2,844.0632909717098,90.39287499999999,153.506084,162.30241700000002,0,0,0.17771179200000004,0
+2026-09-09T08:27:40.080911+00:00,naive,3,100,100,150,10,1,36,136,136,93,36,0,-129,2,809.7002084978037,97.71229100000006,149.53891700000005,167.08808400000004,0,0,0.18525375,0
